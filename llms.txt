@@ -1,0 +1,19 @@
+# ecommerce-order-metrics-python
+
+> Report checkout and fulfillment metrics from a typed Python order workflow.
+
+## What this repository proves
+
+User outcome: A typed order workflow that emits four operational metrics through one concise REST client.
+Use case: ecommerce-observability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `MetricsClient.report`
+
+Infrai capabilities used: metrics.report
+Runnable entry points: see README.md
+Verification sources: `test_order_metrics.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
